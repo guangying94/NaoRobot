@@ -1,0 +1,23 @@
+{
+    "bindings": [
+      {
+        "authLevel": "function",
+        "name": "req",
+        "type": "httpTrigger",
+        "direction": "in"
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "out"
+      },
+      {
+        "type": "table",
+        "name": "outputTable",
+        "tableName": "Unanswered",
+        "connection": "naorobot993c_STORAGE",
+        "direction": "out"
+      }
+    ],
+    "disabled": false
+  }

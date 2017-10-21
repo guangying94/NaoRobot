@@ -32,6 +32,9 @@ class MyClass(GeneratedClass):
             print "---------------- Detecting -------------------"
             response = r.recognize_bing(audio,key)
             if self.executing:
+                # The main idea here is offload the processing to Azure
+                # Refer to \Conversation folder for the detailed conversation code
+                # here, we simply perform HTTP post, thru Azure Function, we will get the response
                 url = "<Azure Function URL>"
                 payload = '{\"query\":\"' + str(response) + '\"}'
                 headers = {

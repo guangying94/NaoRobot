@@ -29,7 +29,6 @@ class MyClass(GeneratedClass):
             audio = r.record(source) # read the entire WAV
 
         try:
-            print "---------------- Detecting -------------------"
             response = r.recognize_bing(audio,key)
             if self.executing:
                 # The main idea here is offload the processing to Azure

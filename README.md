@@ -379,4 +379,6 @@ This solution draws a lot inspiration from [**Zachery Thomas**]( https://www.you
 
 Of course, another reference is drawn from [**Avatarion**](https://microsoft.github.io/techcasestudies/iot/2017/04/04/avatarion.html). They build one of the most amazing solution for kids using Nao and Microsoft Azure.
 
+You can download the project file [**here**](https://1drv.ms/u/s!AsmpFVEoNfZ8oOhH5BgO8VtcRu86dQ), note that you will need to input the necessary information such as API key, SAS token etc.
+
 With that, we are proud to present you the masterpiece of Nao V1 here! 
